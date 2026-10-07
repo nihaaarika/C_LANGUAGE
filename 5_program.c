@@ -1,15 +1,19 @@
+/* Factorial number */
+
 #include <stdio.h>
+
 int main () {
 
-    int a, b, sum;
+    int n, i , fact = 1;
 
-    printf("Enter two numbers:");
-    scanf("%d, %d", &a ,&b);
+    printf("Enter the number: ");
+    scanf("%d", &n);
 
-    sum = a +b;
+    for(i=1; i<=n; i++) {
+        fact = fact * i;
+    }
 
-    printf("Sum of %d", sum);
-
-     return 0;
-
+    printf("Factorial of %d is %d", n, fact);
+    
+    return 0;
 }
