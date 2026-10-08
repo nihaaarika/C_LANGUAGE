@@ -12,9 +12,9 @@ int main () {
         sum = sum + rem;
         n = n/10;
 
-        printf("Sum of digits: %d\n", sum);
-
-        return 0;
-        
     }
+
+        printf("Sum of digits: %d\n", sum);
+        return 0;
+
 }
